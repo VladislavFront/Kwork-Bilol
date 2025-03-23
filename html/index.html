@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/adaptiveIndex.css">
+
+  <title>Acoustic</title>
+
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="#price" class="burger-menu__nav-item" onclick="navItem()">Стоимость</a></li>
+        <li><a href="#path" class="burger-menu__nav-item" onclick="navItem()">Как мы строим</a></li>
+        <li><a href="#advantages" class="burger-menu__nav-item" onclick="navItem()">Преимущества</a></li>
+        <li><a href="#contact" class="burger-menu__nav-item" onclick="navItem()">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <a href="#" target="_blank" class="logo"><img src="../img/" alt="logo" class="logo__img"></a>
+    <nav class="nav-menu">
+      <ul class="nav-menu__list">
+        <li class="nav-menu__list-item"><a href="#price" class="list-item__link">Стоимость</a></li>
+        <li class="nav-menu__list-item"><a href="#path" class="list-item__link">Как мы строим</a></li>
+        <li class="nav-menu__list-item"><a href="#advantages" class="list-item__link">Преимущества</a></li>
+        <li class="nav-menu__list-item"><a href="#contact" class="list-item__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="header-info">
+      <a href="tel: +78124957583" target="_blank" class="header-phone">+7(812)495-75-83</a>
+      <a href="tel: +78124957583" target="_blank" class="header-btn">Позвоните нам</a>
+    </div>
+    <div class="burger-button" onclick="openBurgerMenu()">
+      <span class="burger-button__span"></span>
+    </div>
+  </header>
+
+  <section class="home-section">
+    <div class="home-content">
+      <div class="title-container">
+        <h1 class="home-title">Ваша надёжная защита от шума, ветра и непогоды в любое время года</h1>
+      </div>
+      <div class="btn-container">
+        <a href="#" class="home-btn btn-contact">Свяжитесь с нами</a>
+        <a href="#" class="home-btn btn-calculator">Рассчитать стоимость</a>
+      </div>
+      <div class="card-container">
+        <div class="card card1">
+          <div class="card-content">
+            <div class="top-card">Преимущество</div>
+            <h2 class="title-card">С лёгкой установкой и без лишних хлопот</h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top-card">Преимущество</div>
+          <h2 class="title-card">Без сложных соглосований и бумажных волокит</h2>
+        </div>
+        <div class="card card3">
+          <div class="top-card">Преимущество</div>
+          <h2 class="title-card">Гарантия возврата средств в течение 10 лет</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="innovation-section">
+
+    <div class="innovation-left">
+      <h2 class="section-title">Инновационные панели для защиты вашего участка от ветра</h2>
+      <div class="icon-container">
+       <div class="icon-block">
+         <img src="../img/house.png" alt="" class="icon" width="50px" height="50px">
+         <p class="icon-text">Защита загородных домов</p>
+       </div>
+       <div class="icon-block">
+         <img src="../img/palm.png" alt="" class="icon" width="50px" height="50px">
+         <p class="icon-text">Обустройство зон отдыха</p>
+       </div>
+       <div class="icon-block">
+         <img src="../img/wind.png" alt="" class="icon" width="50px" height="50px">
+         <p class="icon-text">Круглодичная защита от непогоды</p>
+       </div>
+       <div class="icon-block">
+         <img src="../img/crane.png" alt="" class="icon" width="50px" height="50px">
+         <p class="icon-text">Укрепление строительных объектов</p>
+       </div>
+      </div>
+      <div class="btn-container in-btn-container">
+        <a href="#" class="home-btn in-btn-contact">Свяжитесь с нами</a>
+        <a href="#" class="home-btn in-btn-calculator">Рассчитать стоимость</a>
+      </div>
+    </div>
+
+    <div class="innovation-right">
+      <h3 class="innovation-title">Технология ветрозащитных панелей - это современное решение, которое активно используется в США, Нидерландах и Великобритании. Теперь эти инновационные панели доступны и на рынке России, обеспечивая надежную защиту от ветра и непогоды для вашего комфорта и безопасности.</h3>
+      <img src="../img/innovation.png" alt="" class="innovation-img">
+    </div>
+
+    <div class="innovation-bottom">
+      <img src="../img/innovation2.png" alt="" class="innovation-img in-img-bottom">
+      <div class="info-bottom">
+        <h3 class="innovation-title in-bottom-title">Одна из важных причин - ветрозащитные панели могут устанавливаться везде, даже в природоохранной зоне. Они не требуют сложного монтажа и обеспечивают надежную защиту от непогоды.</h3>
+        <div class="characteristic">
+          <h3 class="characteristic-title">Характеристики</h3>
+          <div class="icon-container in-icon-container">
+            <div class="icon-block in-icon-block">
+              <img src="../img/size.png" alt="" class="icon" width="45px" height="45px">
+              <p class="icon-text in-icon-text">
+                Размеры <br>
+                Ширина: от 1.2м до 2.4м <br>
+                Высота: от 1.8 до 3м
+              </p>
+            </div>
+            <div class="icon-block in-icon-block">
+              <img src="../img/brick.png" alt="" class="icon" width="45px" height="45px">
+              <p class="icon-text in-icon-text">
+                Толщина <br>
+                от 10мм до 50мм
+              </p>
+            </div>
+            <div class="icon-block in-icon-block">
+              <img src="../img/unnamed.png" alt="" class="icon" width="45px" height="45px">
+              <p class="icon-text in-icon-text">
+                Материалы <br>
+                Высокопрочный поликарбонат, алюминий, композитные материалы
+              </p>
+            </div>
+            <div class="icon-block in-icon-block">
+              <img src="../img/ploshad.png" alt="" class="icon" width="45px" height="45px">
+              <p class="icon-text in-icon-text">
+                Площадь покрытия <br>
+                от 10 кв.м до 100 кв.м
+              </p>
+            </div>
+            <div class="icon-block in-icon-block">
+              <img src="../img/Twemoji.png" alt="" class="icon" width="45px" height="45px">
+              <p class="icon-text in-icon-text">
+                Устойчивость к нагрузкам <br>
+                до 150 кг/кв.м
+              </p>
+            </div>
+            <div class="icon-block in-icon-block">
+              <img src="../img/hourglass.png" alt="" class="icon" width="45px" height="45px">
+              <p class="icon-text in-icon-text">
+                Срок службы <br>
+                от 10 лет до 25 лет
+              </p>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="advantages-section" id="advantages">
+    <h2 class="section-title advantages-title">Для тех, кто ценит надежность, комфорт и современные технологии</h2>
+    <div class="advantages-card-container">
+      <div class="advantages-card advantages-card1">
+        <h3 class="card-title">Это <br> рационально</h3>
+        <div class="advantages-text">
+          Простота во всём - от выбора до установки. Защитите свой дом от ветра и непогоды уже сейчас, не тратя время на сложные решения.
+          <br>
+          <br>
+          Зачем переплачивать за временные решения? Вы найдёте лучшее применение своим средствам.
+        </div>
+      </div>
+      <div class="advantages-card advantages-card2">
+        <h3 class="card-title">Это <br> выгодно</h3>
+        <div class="advantages-text">
+          • Надёжные ветрозащитные панели по доступной цене.
+          <br>
+          <br>
+          • Не нужно оплачивать дорогие строительные материалы и услуги монтажников.
+          <br>
+          <br>
+          • Экономия на отоплении благодаря эффективной защите от ветра.
+          <br>
+          <br>
+          • Долговечность и отсутствие необходимости в частом обслуживании.
+        </div>
+      </div>
+      <div class="advantages-card advantages-card3">
+        <h3 class="card-title">Это <br> быстро</h3>
+        <div class="advantages-text">
+          • Не нужно искать специалистов для установки.
+          <br>
+          <br>
+          • Монтаж выполняется в кратчайшие сроки.
+          <br>
+          <br>
+          • Готовое решение, которое не требует дополнительных доработок.
+          <br>
+          <br>
+          • Современный дизайн, который впишется в любой экстерьер.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section" id="price">
+    <form action="" class="calculator-form">
+      <h2 class="form-title">Рассчет стоимости за 2 часа</h2>
+      <p class="form-subtitle">Для расчета стоимости шумозащитного или ветро-пылезащитного экрана заполните форму ниже или отправьте заявку на почту <a href="mailto: ">zakaz@pssaa.ru</a> </p>
+      <div class="input-container">
+        <input type="text" placeholder="Имя" class="input">
+        <input type="tel" placeholder="Номер телефона" class="input">
+        <input type="email" placeholder="Электронная почта" class="input">
+        <input type="text" placeholder="Название Вашей компании" class="input">
+
+        <div class="checkbox-container">
+          <h3 class="question">Что Вас интересует?</h3>
+          <input type="checkbox" class="input input-checkbox" id="checkbox1">
+          <label for="checkbox1" class="label">Только общая консультация</label> 
+          <br>
+          <input type="checkbox" class="input input-checkbox" id="checkbox2">
+          <label for="checkbox2" class="label">Поставка полного комплекта, но без монтажа</label>
+          <br>
+          <input type="checkbox" class="input input-checkbox" id="checkbox3">
+          <label for="checkbox3" class="label">Проект "Под ключ" полный комплект</label>
+          <br>
+          <input type="checkbox" class="input input-checkbox" id="checkbox4">
+          <label for="checkbox4" class="label">Поставка отдельных комплектующих (панельки, стойки, закладные)</label>
+        </div>
+
+        <input type="text" placeholder="Длина экрана" class="input">
+        <input type="text" placeholder="Высота экрана" class="input">
+
+        <div class="checkbox-container">
+          <h3 class="question">Какой тип экрана?</h3>
+          <input type="checkbox" class="input input-checkbox" id="checkbox5">
+          <label for="checkbox5" class="label">Шумопоглощающий</label> 
+          <br>
+          <input type="checkbox" class="input input-checkbox" id="checkbox6">
+          <label for="checkbox6" class="label">Шумоотражающий</label>
+          <br>
+          <input type="checkbox" class="input input-checkbox" id="checkbox7">
+          <label for="checkbox7" class="label">Комбинированный</label>
+          <br>
+          <input type="checkbox" class="input input-checkbox" id="checkbox8">
+          <label for="checkbox8" class="label">Ветро-пылезащитный</label>
+        </div>
+
+        <textarea name="" id="" placeholder="Коментарий к Вашей заявке" class="textarea"></textarea>
+
+        <h3 class="question">Если у Вас есть готовый проект или другие важные файлы, приложите их, пожалуйста</h3>
+
+        <input type="file" class="input-file">
+
+        <button class="form-btn">Рассчитать стоимость</button>
+
+      </div>
+    
+    </form>
+  </section>
+
+  <section class="accordion-section" id="path">
+    <h2 class="section-title accordion-title">Как мы <br> строим?</h2>
+    <div class="accordion">
+      <details class="details" name="faq">
+        <summary class="details__title">1 - ИГИ</summary>
+        <div class="details__content">
+          <img src="../img/build-1.svg" alt="" class="details-img">
+          <ul class="accordion-list">
+            Мы проводим:
+            <li class="accordion-item">• Замеры</li>
+            <li class="accordion-item">• Расчеты (моделирование)</li>
+            <li class="accordion-item">• Отчет акустический</li>
+            <li class="accordion-item">• Геологию</li>
+            <li class="accordion-item">• Геодезию</li>
+          </ul>
+        </div>
+      </details>
+      <details class="details" name="faq">
+        <summary class="details__title">2 - Проекты</summary>
+        <div class="details__content">
+          <img src="../img/build-2.svg" alt="" class="details-img">
+          Разработка Рабочей документации или Стадия П (по 87 постановлению) 
+        </div>
+      </details>
+      <details class="details" name="faq">
+        <summary class="details__title">3 - Производство</summary>
+        <div class="details__content">
+          <img src="../img/build-3.svg" alt="" class="details-img">
+        </div>
+      </details>
+      <details class="details" name="faq">
+        <summary class="details__title">4 - Монтаж экрана</summary>
+        <div class="details__content">
+          <img src="../img/build-4.svg" alt="" class="details-img">
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer class="footer footer-contact" id="contact">
+    <div class="footer-top">
+      <div class="contact-block">
+        <h3 class="contact-title">Телефон</h3>
+        <a href="tel:+ +78124957583" class="phone">+7(812)495-75-83</a>
+      </div>
+      <div class="contact-block">
+        <h3 class="contact-title">График работы</h3>
+        <div class="contact-text">Пн-Пт: с 10:00 до 18:00, Сб с 10:00 до 16:00</div>
+      </div>
+      <div class="contact-block">
+        <h3 class="contact-title">Эл почта</h3>
+        <a href="mailto:info@promdoracustica.ru">info@promdoracustica.ru</a>
+      </div>
+      <div class="contact-block">
+        <h3 class="contact-title">Адрес</h3>
+        г. Москва, ул. Вагоноремонтнан, 10А, индекс 127644
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A68232136f205eecf4ef6382485e09b6f75acf91bcfc5f24f92f6fde22ff933a5&amp;source=constructor" width="1200" height="400" id="map" frameborder="0"></iframe>
+    </div>
+  </footer>
+  
+  <script src="../js/main.js"></script>
+</body>
+</html>
