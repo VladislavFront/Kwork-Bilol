@@ -180,7 +180,9 @@ body {
 
 .nav-menu__list-item {
   font-size: 0.8rem;
+  margin: 0 50px;
 }
+
 
 .list-item__link {
   color: var(--textColor);
