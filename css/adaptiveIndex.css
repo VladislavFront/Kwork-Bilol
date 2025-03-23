@@ -311,18 +311,13 @@
     padding: 20px 15px;
   }
 
-  .logo__img {
-    width: 70px;
-  }
-
   .header-info {
     width: 50%;
     padding: 0px 15px 0 0;
   }
 
   .header-phone {
-    font-size: 0.9rem;
-    margin-right: 0px;
+    display: none;
   }
 
   .home-section {
