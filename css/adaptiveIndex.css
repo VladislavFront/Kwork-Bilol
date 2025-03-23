@@ -280,10 +280,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
-  .burger-menu__nav-list {
-    font-size: 1.2rem;
-  }
   
   .details__title {
     padding: 12px 45px;
