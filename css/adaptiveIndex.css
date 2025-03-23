@@ -280,7 +280,15 @@
 }
 
 @media screen and (max-width: 600px) {
-  
+
+  .header-btn {
+    display: none;
+  }
+
+  .burger-menu__nav-list {
+    font-size: 1.5rem;
+  }
+
   .details__title {
     padding: 12px 45px;
   }
@@ -299,17 +307,18 @@
 
 @media screen and (max-width: 500px) {
 
-  .logo__img {
-    width: 50px;
+  .header {
+    padding: 20px 15px;
   }
-  
-  .header-btn {
-    display: none;
+
+  .logo__img {
+    width: 70px;
   }
 
   .header-info {
-    width: auto;
+    width: 50%;
     padding: 0px 15px 0 0;
+    border: 3px solid red;
   }
 
   .header-phone {
