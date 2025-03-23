@@ -46,14 +46,14 @@ body {
 .burger-button {
   display: none; /* flex - видно, none - не видно */
   width: 40px;
-  height: 30px;
+  height: 20px;
   align-items: center;
   position: relative;
 }
 
 .burger-button span {
-  height: 3px;
-  width: 85%;
+  height: 2px;
+  width: 60%;
   display: block;
   transform: scale(1);
   background-color: var(--backgroundColor);
@@ -61,7 +61,7 @@ body {
 }
 
 .burger-button::after, .burger-button::before {
-  height: 3px;
+  height: 2px;
   content: '';
   position: absolute;
   display: block;
@@ -71,12 +71,12 @@ body {
 
 .burger-button::after {
   bottom: 0;
-  width: 60%;
+  width: 35%;
 }
 
 .burger-button::before {
   top: 0;
-  width: 100%;
+  width: 65%;
 }
 
 .burger-menu.menu-open {
